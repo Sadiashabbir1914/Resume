@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MuVers(Music Lovers)</title>
+  <link rel="shortcut icon" href="./imgs/music.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/0b77386848.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="music-player">
+      <nav>
+        <div class="circle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="circle">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+      </nav>
+
+      <img src="./content/thumbnail.jpg" class="song-img" />
+      <h3>Track</h3>
+      <p>Unknown artist</p>
+
+      <audio controls id="song">
+        <source src="./content/track-1.mp3" />
+      </audio>
+
+      <div class="controls">
+        <a href="./content/track-2.mp3">
+          <div><i class="fa-solid fa-backward"></i></div>
+        </a>
+
+        <a href="./content/track-2.mp3">
+          <div><i class="fa-solid fa-forward"></i></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
