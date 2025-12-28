@@ -64,7 +64,7 @@ header {
 /* Home */
 
 #home {
-  background-image: url(/pics/bg-img.jpg);
+  background-image: url(B:\sad\Portfolio\pics\bg-img.jpg);
   background-size: cover;
   background-position: center;
   padding: 80px 20px 40px;
@@ -250,7 +250,7 @@ header {
 /* Contact */
 
 #contact {
-  background-image: url(/pics/contact.jpg);
+  background-image: url(B:\sad\Portfolio\pics\contact.jpg);
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
