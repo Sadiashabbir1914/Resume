@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: linear-gradient(95deg, #b5eef8 , #099dd8);
+}
+
+.todo-Container {
+    width: 400px auto;
+    height: auto;
+    font-size: larger;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 5px rgb(31, 53, 61);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.todo-Container h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.addTaskbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#addTask {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-wrap: wrap;
+}
+
+#addTask:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 2px 2px rgb(215, 238, 238);
+}
+
+#addBtn {
+    width: 50px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: rgba(9, 121, 69, 0.993);
+    transition: all 1s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 10px;
+    gap: 10px;
+    text-wrap: wrap;
+}
+
+ul li {
+    width: 350px;
+    height: 50px auto;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    text-wrap: wrap;
+    user-select: none;
+}
+
+ul li button {
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btns {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 0 0 20px;
+}
+
+.btn {
+    width: 200px;
+    margin: 20px 0 0 30px;
+    background-color: rgb(14, 144, 161);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(36, 171, 180);
+}
+
+.btn1 {
+    margin: 10px 0 0 80px;
+    background-color: rgb(40, 40, 241);
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgb(71, 71, 241);
+}
+
+.btn2 {
+    background-color: rgb(241, 40, 40);
+    color: white;
+}
+
+.btn2:hover {
+    background-color: rgb(241, 71, 71);
+}
+
+.markcomp {
+    text-decoration: line-through;
+    background-color: gray;
+    border: none;
+    outline: none;
+}
